@@ -1,0 +1,8 @@
+.custom-tooltip {
+  background-color: #ffffff;
+  padding: 1em;
+  border: 1px solid #000000;
+}
+.label {
+  font-weight: bold;
+}

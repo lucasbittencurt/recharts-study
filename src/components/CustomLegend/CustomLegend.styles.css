@@ -1,0 +1,32 @@
+/* // ul > li {
+// 	li {
+// 		&::before {
+// 			content: "";
+// 			position: absolute;
+// 			left: 0;
+// 			top: 5px;
+// 			width: 10px;
+// 			height: 10px;
+// 			background-color: $main_color;
+// 		}
+// 	}
+// } */
+ul {
+  padding: 0;
+  line-height: 1em;
+  margin: 0;
+}
+ul > li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 10px 15px;
+  margin: 0 0 0 20px;
+}
+ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+}
