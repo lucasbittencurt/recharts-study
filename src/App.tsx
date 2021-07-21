@@ -5,8 +5,7 @@ function App() {
   return (
     <main>
       <h1>Recharts validation</h1>
-
-      <hr></hr>
+      <br>/br>
       <h2>Simple line chart with custom tooltip</h2>
       <SimpleLineChart />
 
